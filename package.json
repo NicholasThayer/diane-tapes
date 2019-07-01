@@ -1,0 +1,24 @@
+{
+  "name": "diane-tapes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "NicholasThayer <thayer.nicholas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./server"
+  },
+  "devDependencies": {
+    "node-static": "^0.7.11",
+    "postcss-preset-env": "^6.6.0",
+    "rollup": "^1.16.2",
+    "rollup-plugin-html": "^0.2.1",
+    "rollup-plugin-image": "^1.0.2",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.1.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-string": "^3.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
